@@ -8,9 +8,9 @@ library STD;
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity y_generator is:
+entity y_generator is
 
-  port(
+  port (
     B   : in std_logic_vector(3 downto 0);
     S0  : in std_logic;
     S1  : in std_logic;
@@ -36,4 +36,4 @@ begin -- architecture level
   
   end process;
 
-end structural
+end structural;
