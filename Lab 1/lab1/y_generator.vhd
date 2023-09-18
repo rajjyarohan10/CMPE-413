@@ -12,8 +12,8 @@ entity y_generator is:
 
   port(
     B   : in std_logic_vector(3 downto 0);
-    S0  : in std_logic_vector(3 downto 0);
-    S1  : in std_logic_vector(3 downto 0);
+    S0  : in std_logic;
+    S1  : in std_logic;
     Y   : out std_logic_vector(3 downto 0));
 end y_generator;
 
