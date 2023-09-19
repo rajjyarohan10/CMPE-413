@@ -1,0 +1,17 @@
+ncvhdl: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvhdl	15.20-s035: Started on Sep 18, 2023 at 17:04:16 EDT
+ncvhdl
+    -messages
+    -linedebug
+    -cdslib /afs/umbc.edu/users/r/a/rajjyap1/home/cmpe413/cds.lib
+    -hdlvar /afs/umbc.edu/users/r/a/rajjyap1/home/cmpe413/hdl.var
+    -smartorder
+    alu.vhd
+
+alu.vhd:
+	errors: 0, warnings: 0
+VHDL.ALU (entity):
+	streams: 9, words: 680
+VHDL.ALU:STRUCTURAL (architecture):
+	streams: 1, words: 319
+TOOL:	ncvhdl	15.20-s035: Exiting on Sep 18, 2023 at 17:04:16 EDT  (total: 00:00:00)
