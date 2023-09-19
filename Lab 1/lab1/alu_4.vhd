@@ -1,5 +1,5 @@
 --
--- Entity: alu_design
+-- Entity: alu_4
 -- Architecture : structural
 -- Author: rajjyap1 (Rajjya Rohan Paudyal)
 -- Created On: 09/14/2023
@@ -8,7 +8,7 @@ library STD;
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity alu_design is
+entity alu_4 is
 
   port (
     A       : in std_logic_vector(3 downto 0);
@@ -18,9 +18,9 @@ entity alu_design is
     G       : out std_logic_vector(3 downto 0);
     Cin     : in std_logic;
     Cout    : out std_logic);
-end alu_design;
+end alu_4;
 
-architecture structural of alu_design is
+architecture structural of alu_4 is
 
   component y_generator_comp 
     port(
